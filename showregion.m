@@ -24,5 +24,6 @@ cluster_image = zeros(size(label,1), size(label,2), 3);
 cluster_image(:,:,1) = r;
 cluster_image(:,:,2) = g;
 cluster_image(:,:,3) = b;
+cluster_image = uint8(cluster_image);
 figure;
-imshow(uint8(cluster_image));
+imshow(cluster_image);
