@@ -1,6 +1,6 @@
 # Super Pixel Generation 
-<img src="./data/beach.jpg" width="45%" />
-<img src="./data/sp.png" width="45%" />
+<img src="./data/beach.jpg" width="40%" />
+<img src="./data/sp.png" width="40%" />
 ---
 This program provides a MATLAB wrapper for P. Felzenszwalb's graph based image segmentation code. For the original C++ implementation, please refer to [this page](http://cs.brown.edu/~pff/segment/). And for details of the algorithm, please refer to the paper `Graph Based Image Segmentation`.
 
