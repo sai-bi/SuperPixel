@@ -1,5 +1,9 @@
 function [cluster_image] = showregion(r_label)
-
+% assign same color to pixels with the same label
+% Input:
+%	r_label:	  [M * N, REQ] labels for each pixel
+% Output:
+% cluster_image:  [M * N * 3] generated color image
 temp = unique(r_label);
 cluster_num = length(temp);
 
